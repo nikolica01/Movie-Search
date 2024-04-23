@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+}
+.plot{
+    font-size: 16px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+   
+ 
+}
+.main{
+    
+    height: 50vh;
+    margin-bottom: 2rem;
+    width: 100%;
+    background-image: url(images/1330140.png);
+   background-size: cover;
+}
+.search-btn{
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #fff;
+    padding: 0 1rem;
+    border: 1px solid white;
+    border-left: 1px solid black;
+   
+   
+}
+.input{
+ outline: none;
+ border-radius: 5px;
+ border-end-end-radius: 0;
+ border-top-right-radius: 0;
+ border-right: none;
+ padding: 0.7rem 9rem;
+ 
+
+
+
+
+
+ background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+ background-repeat: no-repeat;
+ background-position: left center;
+ background-color: #fff;
+ border: 1px solid white;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.poster{
+    height: 300px;
+    width: 300px;
+}
+
+.container{
+
+    display: flex ;
+    flex-direction: column;
+    width: 50%;
+   margin: auto;
+   gap: 1rem;
+}
+.post{
+    display: flex;
+   align-items: center;
+}
+.info{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.header-txt{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.movie-info{
+    display: flex;
+    gap: 2rem;
+}
+.add{
+    font-size: 1.5rem;
+}
+.add:active{
+    color: gray;
+ }

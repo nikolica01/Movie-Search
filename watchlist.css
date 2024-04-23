@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    height: 30vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+main{
+    margin-top: 1rem;
+}
+h1{
+    font-size: 4rem;
+}
+header a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.container{
+
+    display: flex ;
+    flex-direction: column;
+    width: 50%;
+   margin: auto;
+   gap: 1rem;
+}
+.post{
+    display: flex;
+   align-items: center;
+}
+.post img{
+    height: 185px;
+    width: 125px;
+}
+.info{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.header-txt{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.movie-info{
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+}
+.movie-info i{
+    font-size: 1.5rem;
+}
+.movie-info i:active{
+    color: grey;
+}
